@@ -1,6 +1,5 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -46,10 +45,10 @@
 
         l_nav {
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4        &kp F5     &kp F6        &kp F7     &kp F8      &kp F9      &kp F10            &kp F11  &kp F12
-&kp CAPS        &none   &none   &none         &none      &bt BT_NXT    &none      &none       &kp UP      &none              &none    &none
-&kp LEFT_SHIFT  &none   &none   &none         &none      &bt BT_CLR    &none      &kp LEFT    &kp DOWN    &kp RIGHT          &none    &none
-&kp LCTRL       &none   &none   &none         &none      &none         &none      &none       &kp PERIOD  &kp RIGHT_BRACKET  &none    &kp EQUAL
+&kp F1          &kp F2  &kp F3  &kp F4        &kp F5     &kp F6        &kp F7     &kp F8      &kp F9    &kp F10    &kp F11  &kp F12
+&kp CAPS        &none   &none   &none         &none      &none         &none      &none       &kp UP    &none      &none    &none
+&kp LEFT_SHIFT  &none   &none   &none         &none      &caps_word    &none      &kp LEFT    &kp DOWN  &kp RIGHT  &none    &none
+&kp LCTRL       &none   &none   &none         &none      &none         &none      &none       &none     &none      &none    &none
                                 &kp LEFT_WIN  &kp SPACE  &none         &kp LALT   &kp DELETE
                                               &mkp MB1   &mkp MB2      &kp ENTER
             >;
@@ -62,7 +61,7 @@
 &trans  &trans  &trans             &trans              &trans               &trans    &trans     &trans                &trans                 &trans  &trans  &trans
 &trans  &trans  &kp LG(GRAVE)      &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &trans    &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
 &trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE          &kp C_VOLUME_UP      &trans    &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
-&trans  &trans  &trans             &kp C_PAUSE         &trans               &trans    &trans     &kp LBKT              &kp RIGHT_BRACKET      &trans  &trans  &trans
+&trans  &trans  &trans             &kp C_PAUSE         &trans               &trans    &kp EQUAL  &kp LBKT              &kp RIGHT_BRACKET      &trans  &trans  &trans
                                    &trans              &trans               &trans    &trans     &trans
                                                        &trans               &trans    &trans
             >;
