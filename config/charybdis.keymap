@@ -20,20 +20,31 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+        l_qwerty {
             bindings = <
 &kp GRAVE       &kp N1      &kp N2  &kp N3  &kp N4        &kp N5      &kp N6     &kp N7         &kp N8          &kp N9   &kp N0              &kp MINUS
 &kp TAB         &kp Q       &kp W   &kp E   &kp R         &kp T       &kp Y      &kp U          &kp I           &kp O    &kp P               &kp KP_PLUS
 &kp LEFT_SHIFT  &mt LGUI A  &kp S   &kp D   &mt LSHIFT F  &kp G       &kp H      &mt LSHIFT J   &mt LEFT_ALT K  &kp L    &mt LGUI SEMICOLON  &kp SQT
-&kp LCTRL       &kp Z       &kp X   &kp C   &kp V         &kp B       &kp N      &kp M          &kp COMMA       &kp DOT  &kp FSLH            &to 2
-                                    &mo 3   &kp SPACE     &mo 1       &kp ENTER  &kp BACKSPACE
+&kp LCTRL       &kp Z       &kp X   &kp C   &kp V         &kp B       &kp N      &kp M          &kp COMMA       &kp DOT  &kp FSLH            &to 1
+                                    &mo 2   &kp SPACE     &mo 3       &kp ENTER  &kp BACKSPACE
                                             &kp ESC       &mkp MB1    &mo 4
             >;
 
             trackball-bindings = <&tmv_coarse>;
         };
 
-        layer_1 {
+        l_colemak {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans         &trans
+&trans  &kp Q   &kp W   &kp F   &kp P   &kp B     &kp J   &kp L   &kp U      &kp Y       &kp SEMICOLON  &trans
+&trans  &kp A   &kp R   &kp S   &kp T   &kp G     &kp M   &kp N   &kp E      &kp I       &kp O          &trans
+&trans  &kp X   &kp C   &kp D   &kp V   &kp Z     &kp K   &kp H   &kp COMMA  &kp PERIOD  &kp SLASH      &to 0
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
+            >;
+        };
+
+        l_nav {
             bindings = <
 &kp F1          &kp F2  &kp F3  &kp F4        &kp F5     &kp F6        &kp F7     &kp F8      &kp F9      &kp F10            &kp F11  &kp F12
 &kp CAPS        &none   &none   &none         &none      &bt BT_NXT    &none      &none       &kp UP      &none              &none    &none
@@ -46,18 +57,7 @@
             trackball-bindings = <&tsl>;
         };
 
-        layer_2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans         &trans
-&trans  &kp Q   &kp W   &kp F   &kp P   &kp B     &kp J   &kp L   &kp U      &kp Y       &kp SEMICOLON  &trans
-&trans  &kp A   &kp R   &kp S   &kp T   &kp G     &kp M   &kp N   &kp E      &kp I       &kp O          &trans
-&trans  &kp X   &kp C   &kp D   &kp V   &kp Z     &kp K   &kp H   &kp COMMA  &kp PERIOD  &kp SLASH      &to 0
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
-            >;
-        };
-
-        layer_3 {
+        l_symbols {
             bindings = <
 &trans  &trans           &trans              &trans               &trans  &trans    &trans     &trans                &trans                 &trans  &trans  &trans
 &trans  &kp LG(GRAVE)    &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &trans  &trans    &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
