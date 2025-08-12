@@ -26,7 +26,7 @@
 &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F            &kp G       &kp H               &kp J          &kp K      &kp L    &kp SEMICOLON  &kp SQT
 &kp LCTRL       &kp Z   &kp X   &kp C   &kp V            &kp B       &kp N               &kp M          &kp COMMA  &kp DOT  &kp FSLH       &to 1
                                 &mo 3   &kp SPACE        &mo 2       &mt LEFT_ALT ENTER  &kp BACKSPACE
-                                        &mt LGUI ESCAPE  &mkp MB1    &kp RGUI
+                                        &mt LGUI ESCAPE  &mkp MB1    &kp LG(LS(LA(S)))
             >;
 
             trackball-bindings = <&tmv_coarse>;
