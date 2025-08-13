@@ -26,7 +26,7 @@
 &kp TAB         &kp Q       &kp W   &kp E   &kp R            &kp T       &kp Y               &kp U               &kp I      &kp O    &kp P               &bl BL_ON
 &kp LEFT_SHIFT  &mt LGUI A  &kp S   &kp D   &kp F            &kp G       &kp H               &kp J               &kp K      &kp L    &mt LGUI SEMICOLON  &kp SQT
 &kp LCTRL       &kp Z       &kp X   &kp C   &kp V            &kp B       &kp N               &kp M               &kp COMMA  &kp DOT  &kp FSLH            &to 1
-                                    &mo 3   &kp SPACE        &mo 2       &mt LEFT_ALT ENTER  &mt LALT BACKSPACE
+                                    &mo 0   &kp SPACE        &mo 2       &mt LEFT_ALT ENTER  &mt LALT BACKSPACE
                                             &mt LGUI ESCAPE  &mkp MB1    &kp LG(LS(LA(S)))
             >;
 
@@ -44,19 +44,6 @@
             >;
         };
 
-        l_nav {
-            bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4        &kp F5     &kp F6        &kp F7        &kp F8        &kp F9         &kp F10        &kp F11  &kp F12
-&kp CAPS        &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
-&kp LEFT_SHIFT  &none   &none   &none         &none      &caps_word    &kp LA(LEFT)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(RIGHT)  &none    &none
-&kp LCTRL       &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
-                                &kp LEFT_WIN  &kp SPACE  &none         &kp LALT      &kp DELETE
-                                              &mkp MB1   &mkp MB2      &kp ENTER
-            >;
-
-            trackball-bindings = <&tsl>;
-        };
-
         l_symbols {
             bindings = <
 &trans  &trans  &trans             &trans              &trans               &trans         &kp PLUS        &trans                &trans                 &trans          &trans           &trans
@@ -68,15 +55,17 @@
             >;
         };
 
-        layer_4 {
+        l_nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans      &trans  &trans
-                                &mkp MB1  &mkp MB2    &trans
+&kp F1          &kp F2  &kp F3  &kp F4        &kp F5     &kp F6        &kp F7        &kp F8        &kp F9         &kp F10        &kp F11  &kp F12
+&kp CAPS        &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
+&kp LEFT_SHIFT  &none   &none   &none         &none      &caps_word    &kp LA(LEFT)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(RIGHT)  &none    &none
+&kp LCTRL       &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
+                                &kp LEFT_WIN  &kp SPACE  &none         &kp LALT      &kp DELETE
+                                              &mkp MB1   &mkp MB2      &kp ENTER
             >;
+
+            trackball-bindings = <&tsl>;
         };
 
         /* layer_2 {
