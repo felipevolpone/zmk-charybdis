@@ -34,12 +34,12 @@
 
         l_colemak {
             bindings = <
-&trans  &trans      &trans  &trans  &trans        &trans    &trans  &trans            &trans     &trans      &trans         &trans
-&trans  &kp Q       &kp W   &kp F   &kp P         &kp B     &kp J   &kp L             &kp U      &kp Y       &kp SEMICOLON  &trans
-&trans  &mt LGUI A  &kp R   &kp S   &mt LSHIFT T  &kp G     &kp M   &mt LEFT_SHIFT N  &kp E      &kp I       &kp O          &trans
-&trans  &kp X       &kp C   &kp D   &kp V         &kp Z     &kp K   &kp H             &kp COMMA  &kp PERIOD  &kp SLASH      &to 0
-                            &trans  &trans        &trans    &trans  &trans
-                                    &trans        &trans    &trans
+&trans  &trans      &trans  &trans       &trans        &trans    &trans  &trans            &trans     &trans      &trans         &trans
+&trans  &kp Q       &kp W   &kp F        &kp P         &kp B     &kp J   &kp L             &kp U      &kp Y       &kp SEMICOLON  &trans
+&trans  &mt LGUI A  &kp R   &mt LCTRL S  &mt LSHIFT T  &kp G     &kp M   &mt LEFT_SHIFT N  &kp E      &kp I       &kp O          &trans
+&trans  &kp X       &kp C   &kp D        &kp V         &kp Z     &kp K   &kp H             &kp COMMA  &kp PERIOD  &kp SLASH      &to 0
+                            &trans       &trans        &trans    &trans  &trans
+                                         &trans        &trans    &trans
             >;
         };
 
