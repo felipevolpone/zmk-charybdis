@@ -45,23 +45,23 @@
 
         l_symbols {
             bindings = <
-&trans  &trans  &trans             &trans              &trans               &trans    &kp PLUS        &trans                &trans                 &trans          &trans           &trans
-&trans  &trans  &kp LG(GRAVE)      &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &trans    &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE          &kp C_VOLUME_UP      &trans    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT       &kp SLASH        &trans
-&trans  &trans  &trans             &kp C_PLAY_PAUSE    &trans               &trans    &kp EQUAL       &kp LBKT              &kp RIGHT_BRACKET      &kp BACKSLASH   &trans           &trans
-                                   &trans              &trans               &trans    &trans          &trans
-                                                       &trans               &trans    &trans
+&trans  &trans  &trans             &trans              &trans               &trans        &kp PLUS        &trans                &trans                 &trans          &trans           &trans
+&trans  &trans  &kp LG(GRAVE)      &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &kp CAPS      &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE          &kp C_VOLUME_UP      &caps_word    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT       &kp SLASH        &trans
+&trans  &trans  &trans             &kp C_PLAY_PAUSE    &trans               &trans        &kp EQUAL       &kp LBKT              &kp RIGHT_BRACKET      &kp BACKSLASH   &trans           &trans
+                                   &trans              &trans               &trans        &trans          &trans
+                                                       &trans               &trans        &trans
             >;
         };
 
         l_nav {
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4           &kp F5            &kp F6        &kp F7        &kp F8        &kp F9         &kp F10        &kp F11  &kp F12
-&kp CAPS        &none   &none   &none            &none             &none         &none         &none         &none          &none          &none    &none
-&kp LEFT_SHIFT  &none   &none   &msc MOVE_Y(10)  &msc MOVE_Y(-10)  &caps_word    &kp LA(LEFT)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(RIGHT)  &none    &none
-&kp LCTRL       &none   &none   &none            &none             &none         &none         &none         &none          &none          &none    &none
-                                &kp LEFT_WIN     &kp SPACE         &none         &kp LALT      &kp DELETE
-                                                 &mkp MB1          &mkp MB2      &kp ENTER
+&kp F1          &kp F2  &kp F3  &kp F4        &kp F5     &kp F6        &kp F7        &kp F8        &kp F9         &kp F10        &kp F11  &kp F12
+&kp CAPS        &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
+&kp LEFT_SHIFT  &none   &none   &none         &none      &caps_word    &kp LA(LEFT)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(RIGHT)  &none    &none
+&kp LCTRL       &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
+                                &kp LEFT_WIN  &kp SPACE  &none         &kp LALT      &kp DELETE
+                                              &mkp MB1   &mkp MB2      &kp ENTER
             >;
 
             trackball-bindings = <&tsl>;
