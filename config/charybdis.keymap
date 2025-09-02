@@ -28,8 +28,8 @@
 &kp TAB     &kp Q       &kp W       &kp E        &kp R         &kp T       &kp Y              &kp U               &kp I        &kp O    &kp P          &none
 &kp LSHIFT  &mt LGUI A  &mt LALT S  &mt RCTRL D  &mt LSHIFT F  &kp G       &kp H              &mt LSHIFT J        &mt RCTRL K  &kp L    &kp SEMICOLON  &kp SQT
 &kp LCTRL   &kp Z       &kp X       &kp C        &kp V         &kp B       &kp N              &kp M               &kp COMMA    &kp DOT  &kp FSLH       &to 1
-                                    &lt 2 SPACE  &kp ESCAPE    &none       &kp ENTER          &mt LALT BACKSPACE
-                                                 &mo 3         &mkp MB1    &kp LG(LA(LS(S)))
+                                    &lt 3 SPACE  &kp ESCAPE    &none       &kp ENTER          &mt LALT BACKSPACE
+                                                 &mo 0         &mkp MB1    &kp LG(LA(LS(S)))
             >;
 
             trackball-bindings = <&tmv_coarse>;
@@ -48,36 +48,23 @@
 
         l_symbols {
             bindings = <
-&trans  &trans  &trans             &trans              &trans               &trans        &kp PLUS        &trans                &trans                 &trans          &trans           &trans
-&trans  &trans  &kp LG(GRAVE)      &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &kp CAPS      &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE          &kp C_VOLUME_UP      &caps_word    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT       &kp SLASH        &trans
-&trans  &trans  &trans             &kp C_PLAY_PAUSE    &trans               &trans        &kp EQUAL       &kp LBKT              &kp RIGHT_BRACKET      &kp BACKSLASH   &trans           &trans
+&trans  &trans  &trans             &trans              &trans               &trans        &none           &trans          &trans        &trans     &trans  &trans
+&trans  &trans  &kp LG(GRAVE)      &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &none         &none           &none           &none         &none      &none   &trans
+&trans  &trans  &kp C_VOLUME_DOWN  &kp C_MUTE          &kp C_VOLUME_UP      &caps_word    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none   &trans
+&trans  &trans  &trans             &kp C_PLAY_PAUSE    &trans               &trans        &none           &none           &none         &none      &trans  &trans
                                    &trans              &trans               &trans        &trans          &trans
                                                        &trans               &trans        &trans
             >;
         };
 
-        l_nav {
-            bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4        &kp F5     &kp F6        &kp F7        &kp F8        &kp F9         &kp F10        &kp F11  &kp F12
-&kp CAPS        &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
-&kp LEFT_SHIFT  &none   &none   &none         &none      &caps_word    &kp LA(LEFT)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(RIGHT)  &none    &none
-&kp LCTRL       &none   &none   &none         &none      &none         &none         &none         &none          &none          &none    &none
-                                &kp LEFT_WIN  &kp SPACE  &none         &kp LALT      &kp DELETE
-                                              &mkp MB1   &mkp MB2      &kp ENTER
-            >;
-
-            trackball-bindings = <&tsl>;
-        };
-
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans                &trans                 &trans    &trans     &trans        &trans      &trans          &trans     &trans
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp PLUS   &kp ASTERISK  &kp SQT     &trans          &trans     &trans
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp MINUS  &kp ENTER     &kp ESCAPE  &kp UNDERSCORE  &kp SLASH  &trans
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp EQUAL  &kp QUESTION  &kp PIPE    &kp BACKSLASH   &trans     &trans
-                        &trans                &trans                 &trans    &trans     &trans
-                                              &trans                 &trans    &trans
+&trans  &trans  &trans     &trans                &trans                 &trans    &trans     &trans        &trans      &trans          &trans     &trans
+&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp PLUS   &kp ASTERISK  &kp SQT     &trans          &trans     &trans
+&trans  &trans  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp MINUS  &kp ENTER     &kp ESCAPE  &kp UNDERSCORE  &kp SLASH  &trans
+&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp EQUAL  &kp QUESTION  &kp PIPE    &kp BACKSLASH   &trans     &trans
+                           &trans                &trans                 &trans    &trans     &trans
+                                                 &trans                 &trans    &trans
             >;
         };
 
