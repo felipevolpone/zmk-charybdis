@@ -70,6 +70,17 @@
             trackball-bindings = <&tsl>;
         };
 
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans                &trans                 &trans    &trans     &trans        &trans      &trans          &trans     &trans
+&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp PLUS   &kp ASTERISK  &kp SQT     &trans          &trans     &trans
+&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp MINUS  &kp ENTER     &kp ESCAPE  &kp UNDERSCORE  &kp SLASH  &trans
+&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp EQUAL  &kp QUESTION  &kp PIPE    &kp BACKSLASH   &trans     &trans
+                        &trans                &trans                 &trans    &trans     &trans
+                                              &trans                 &trans    &trans
+            >;
+        };
+
         /* layer_2 {
             bindings = <
 &none  &none   &none    &none   &none         &none         &kp N1         &none         &none     &none  &none   &to 0
