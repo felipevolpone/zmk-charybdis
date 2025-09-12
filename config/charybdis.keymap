@@ -17,7 +17,47 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tmux-new-window {
+            bindings = <&tmux_new_window>;
+            key-positions = <19 20>;
+        };
+
+        tmux-prev-window {
+            bindings = <&tmux_prev_window>;
+            key-positions = <31 32>;
+        };
+
+        tmux-next-window {
+            bindings = <&tmux_next_prev>;
+            key-positions = <32 33>;
+        };
+    };
+
+    macros {
+        tmux_new_window: tmux_new_window {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp C>;
+            label = "TMUX_NEW_WINDOW";
+        };
+
+        tmux_prev_window: tmux_prev_window {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp H>;
+            label = "TMUX_PREV_WINDOW";
+        };
+
+        tmux_next_prev: tmux_next_prev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp N>;
+            label = "TMUX_NEXT_PREV";
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
