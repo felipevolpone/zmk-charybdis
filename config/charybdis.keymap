@@ -99,10 +99,10 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans     &trans                &trans                 &trans    &trans     &trans        &trans          &trans          &trans     &trans
-&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp PLUS   &kp ASTERISK  &kp SQT         &trans          &trans     &trans
-&trans  &trans  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp MINUS  &kp ENTER     &kp LA(ESCAPE)  &kp UNDERSCORE  &kp SLASH  &trans
-&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp EQUAL  &kp QUESTION  &kp PIPE        &kp BACKSLASH   &trans     &trans
+&trans  &trans  &trans     &trans                &trans                 &trans    &trans     &trans        &trans      &trans          &trans     &trans
+&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp PLUS   &kp ASTERISK  &kp SQT     &trans          &trans     &trans
+&trans  &trans  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp MINUS  &kp ENTER     &kp ESCAPE  &kp UNDERSCORE  &kp SLASH  &trans
+&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp EQUAL  &kp QUESTION  &kp PIPE    &kp BACKSLASH   &trans     &trans
                            &trans                &trans                 &trans    &trans     &trans
                                                  &trans                 &trans    &trans
             >;
