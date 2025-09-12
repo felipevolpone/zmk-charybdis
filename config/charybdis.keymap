@@ -88,10 +88,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans                &trans                 &trans              &trans                 &none           &trans          &trans        &trans     &trans  &trans
-&trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    &caps_word      &none           &none         &none      &none   &trans
-&trans  &trans  &kp C_VOLUME_DOWN     &kp C_MUTE             &kp C_VOLUME_UP     &none                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none   &trans
-&trans  &trans  &trans                &kp C_PLAY_PAUSE       &trans              &trans                 &none           &none           &none         &none      &trans  &trans
+&trans  &trans  &trans                &trans                 &trans              &trans                 &none           &trans          &trans         &trans     &trans  &trans
+&trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    &caps_word      &kp LA(LEFT)    &kp LA(RIGHT)  &none      &none   &trans
+&trans  &trans  &kp C_VOLUME_DOWN     &kp C_MUTE             &kp C_VOLUME_UP     &none                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &none   &trans
+&trans  &trans  &trans                &kp C_PLAY_PAUSE       &trans              &trans                 &none           &none           &none          &none      &trans  &trans
                                       &trans                 &trans              &trans                 &trans          &trans
                                                              &trans              &trans                 &trans
             >;
@@ -99,10 +99,10 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans     &trans                &trans                 &trans    &trans     &trans        &trans         &trans          &trans     &trans
-&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp PLUS   &kp ASTERISK  &kp SQT        &trans          &trans     &trans
-&trans  &trans  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp MINUS  &kp LA(LEFT)  &kp LA(RIGHT)  &kp UNDERSCORE  &kp SLASH  &trans
-&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp EQUAL  &kp QUESTION  &kp PIPE       &kp BACKSLASH   &trans     &trans
+&trans  &trans  &trans     &trans                &trans                 &trans    &trans     &trans        &trans          &trans          &trans     &trans
+&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp PLUS   &kp ASTERISK  &kp SQT         &trans          &trans     &trans
+&trans  &trans  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp MINUS  &kp ENTER     &kp LA(ESCAPE)  &kp UNDERSCORE  &kp SLASH  &trans
+&trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp EQUAL  &kp QUESTION  &kp PIPE        &kp BACKSLASH   &trans     &trans
                            &trans                &trans                 &trans    &trans     &trans
                                                  &trans                 &trans    &trans
             >;
