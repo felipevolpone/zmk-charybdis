@@ -28,7 +28,7 @@
 &kp TAB     &kp Q       &kp W       &kp E        &kp R         &kp T     &kp Y              &kp U            &kp I        &kp O    &kp P          &none
 &kp LSHIFT  &mt LGUI A  &mt LALT S  &mt RCTRL D  &mt LSHIFT F  &kp G     &kp H              &mt LSHIFT J     &mt RCTRL K  &kp L    &kp SEMICOLON  &kp SQT
 &kp LCTRL   &kp Z       &kp X       &kp C        &kp V         &kp B     &kp N              &kp M            &kp COMMA    &kp DOT  &kp FSLH       &to 1
-                                    &lt 3 SPACE  &to 4         &none     &none              &lt 2 BACKSPACE
+                                    &lt 3 SPACE  &mo 4         &none     &none              &lt 2 BACKSPACE
                                                  &mkp LCLK     &none     &kp LG(LA(LS(S)))
             >;
 
