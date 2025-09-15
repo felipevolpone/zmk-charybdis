@@ -4,9 +4,9 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <200>;
-    flavor = "tap-preferred";
-    quick-tap-ms = <140>;
+    tapping-term-ms = <130>;
+    flavor = "hold-preferred";
+    quick-tap-ms = <0>;
 };
 
 &mt {
