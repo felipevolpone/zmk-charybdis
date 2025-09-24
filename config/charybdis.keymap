@@ -101,7 +101,7 @@
             bindings = <
 &trans  &trans         &trans          &trans                &trans                 &trans             &trans             &trans      &trans             &trans     &trans  &trans
 &trans  &kp BACKSLASH  &kp MINUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION    &kp ASTERISK       &kp DOLLAR  &kp PERCENT        &kp SQT    &trans  &trans
-&trans  &trans         &kp PLUS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp COLON          &kp ENTER   &kp LG(LS(LA(S)))  &kp SLASH  &trans  &trans
+&trans  &kp ENTER      &kp PLUS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp COLON          &kp ENTER   &kp LG(LS(LA(S)))  &kp SLASH  &trans  &trans
 &trans  &trans         &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp EQUAL          &kp TAB     &kp LS(TAB)        &trans     &trans  &trans
                                        &trans                &trans                 &trans             &kp LA(BACKSPACE)  &trans
                                                              &trans                 &trans             &trans
