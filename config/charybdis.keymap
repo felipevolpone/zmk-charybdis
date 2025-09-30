@@ -68,7 +68,7 @@
 &kp TAB     &kp Q       &kp W       &kp E        &kp R       &kp T       &kp Y           &kp U            &kp I      &kp O    &kp P                   &none
 &kp LSHIFT  &mt LGUI A  &mt LALT S  &kp D        &kp F       &kp G       &kp H           &kp J            &kp K      &kp L    &mt LEFT_GUI SEMICOLON  &kp LEFT_ALT
 &kp LCTRL   &kp Z       &kp X       &kp C        &kp V       &kp B       &kp N           &kp M            &kp COMMA  &kp DOT  &kp QUESTION            &to 1
-                                    &lt 3 SPACE  &kp ESCAPE  &none       &mt LALT ENTER  &lt 2 BACKSPACE
+                                    &lt 3 SPACE  &kp ESCAPE  &none       &mt RGUI ENTER  &lt 2 BACKSPACE
                                                  &mkp LCLK   &kp RGUI    &none
             >;
 
