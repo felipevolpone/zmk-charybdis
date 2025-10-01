@@ -102,7 +102,7 @@
 &trans  &trans         &trans          &trans                &trans                 &trans             &trans        &trans             &trans        &trans     &trans             &trans
 &trans  &kp BACKSLASH  &kp MINUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION    &kp ASTERISK  &kp DOLLAR         &kp PERCENT   &kp SQT    &kp DOUBLE_QUOTES  &trans
 &trans  &kp PIPE       &kp PLUS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp LEFT      &kp DOWN           &kp UP_ARROW  &kp RIGHT  &kp SLASH          &trans
-&trans  &trans         &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON     &kp EQUAL          &none         &trans     &trans             &trans
+&trans  &trans         &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON     &kp EQUAL          &kp LG(K)     &trans     &trans             &trans
                                        &trans                &trans                 &trans             &none         &kp LA(BACKSPACE)
                                                              &trans                 &trans             &trans
             >;
