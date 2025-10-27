@@ -44,6 +44,16 @@
             bindings = <&kp LA(LS(LG(S)))>;
             key-positions = <30 31>;
         };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <38 39>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <39 40>;
+        };
     };
 
     macros {
