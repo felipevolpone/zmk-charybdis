@@ -20,11 +20,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tmux-new-window {
-            bindings = <&tmux_new_window>;
-            key-positions = <19 20>;
-        };
-
         tmux-prev-window {
             bindings = <&tmux_prev_window>;
             key-positions = <31 32>;
@@ -33,6 +28,21 @@
         tmux-next-window {
             bindings = <&tmux_next_prev>;
             key-positions = <32 33>;
+        };
+
+        tmuxnewwindow {
+            bindings = <&tmux_new_window>;
+            key-positions = <21 22>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <19 20>;
+        };
+
+        shortcat {
+            bindings = <&kp LA(LS(LG(S)))>;
+            key-positions = <30 31>;
         };
     };
 
@@ -67,7 +77,7 @@
 &kp GRAVE   &kp N1      &kp N2  &kp N3       &kp N4      &kp N5    &kp N6          &kp N7           &kp N8     &kp N9   &kp N0                  &kp LG(SPACE)
 &kp TAB     &kp Q       &kp W   &kp E        &kp R       &kp T     &kp Y           &kp U            &kp I      &kp O    &kp P                   &none
 &kp LSHIFT  &mt LGUI A  &kp S   &kp D        &kp F       &kp G     &kp H           &kp J            &kp K      &kp L    &mt LEFT_GUI SEMICOLON  &kp SQT
-&kp LCTRL   &kp Z       &kp X   &kp C        &kp V       &kp B     &kp N           &kp M            &kp COMMA  &kp DOT  &kp SLASH               &kp RGUI
+&kp LCTRL   &kp Z       &kp X   &kp C        &kp V       &kp B     &kp N           &kp M            &kp COMMA  &kp DOT  &kp QMARK               &kp RGUI
                                 &lt 3 SPACE  &kp ESCAPE  &none     &mt RGUI ENTER  &lt 2 BACKSPACE
                                              &mkp LCLK   &none     &mkp LCLK
             >;
