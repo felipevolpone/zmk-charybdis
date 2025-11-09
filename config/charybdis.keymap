@@ -20,16 +20,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tmux-prev-window {
-            bindings = <&tmux_prev_window>;
-            key-positions = <31 32>;
-        };
-
-        tmux-next-window {
-            bindings = <&tmux_next_prev>;
-            key-positions = <32 33>;
-        };
-
         tmuxnewwindow {
             bindings = <&tmux_new_window>;
             key-positions = <21 22>;
@@ -47,12 +37,12 @@
 
         copy {
             bindings = <&kp LG(C)>;
-            key-positions = <38 39>;
+            key-positions = <31 32>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
-            key-positions = <39 40>;
+            key-positions = <43 44>;
         };
     };
 
