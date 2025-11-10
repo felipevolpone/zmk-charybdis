@@ -85,7 +85,7 @@
 &kp LSHIFT  &mt LGUI A  &kp S   &mt LSHIFT D  &kp F       &kp G     &kp H      &kp J            &mt LSHIFT K  &kp L    &mt LGUI SEMICOLON  &mo 3
 &kp LCTRL   &kp Z       &kp X   &kp C         &kp V       &kp B     &kp N      &kp M            &kp COMMA     &kp DOT  &kp QMARK           &kp RGUI
                                 &lt 2 SPACE   &kp ESCAPE  &none     &kp ENTER  &lt 1 BACKSPACE
-                                              &mkp LCLK   &none     &mo 3
+                                              &mkp LCLK   &none     &none
             >;
 
             trackball-bindings = <&tmv_coarse>;
