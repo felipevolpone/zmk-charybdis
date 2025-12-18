@@ -28,7 +28,7 @@
 
         tmuxnewwindow {
             bindings = <&tmux_new_window>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
         };
 
         slash {
@@ -41,14 +41,14 @@
             key-positions = <30 31>;
         };
 
-        copy {
-            bindings = <&kp LG(C)>;
+        tmuxprev {
+            bindings = <&tmux_prev_window>;
             key-positions = <31 32>;
         };
 
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <43 44>;
+        tmuxnext {
+            bindings = <&tmux_next_prev>;
+            key-positions = <32 33>;
         };
     };
 
