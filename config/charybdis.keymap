@@ -30,6 +30,11 @@
             bindings = <&kp LS(LA(LC(LG(SPACE))))>;
             key-positions = <31 32 33>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
