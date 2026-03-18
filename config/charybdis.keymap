@@ -35,6 +35,11 @@
             bindings = <&kp SLASH>;
             key-positions = <20 19>;
         };
+
+        entr {
+            bindings = <&kp ENTER>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
