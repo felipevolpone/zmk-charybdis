@@ -75,12 +75,12 @@
 
         l_qwerty {
             bindings = <
-&kp GRAVE       &kp N1      &kp N2  &kp N3       &kp N4        &kp N5            &kp N6       &kp N7           &kp N8     &kp N9   &kp N0         &kp MINUS
-&kp TAB         &kp Q       &kp W   &kp E        &kp R         &kp T             &kp Y        &kp U            &kp I      &kp O    &kp P          &none
-&kp LEFT_SHIFT  &mt LGUI A  &kp S   &kp D        &kp F         &kp G             &kp H        &kp J            &kp K      &kp L    &kp SEMICOLON  &kp RGUI
-&kp LCTRL       &kp Z       &kp X   &kp C        &kp V         &kp B             &kp N        &kp M            &kp COMMA  &kp DOT  &kp QUESTION   &none
-                                    &lt 2 SPACE  &lt 1 ESC     &lt 4 LEFT_GUI    &lt 3 ENTER  &lt 1 BACKSPACE
-                                                 &kp LEFT_GUI  &mkp LCLK         &kp RGUI
+&kp ESCAPE      &kp N1      &kp N2          &kp N3            &kp N4              &kp N5            &kp N6       &kp N7              &kp N8            &kp N9   &kp N0              &kp MINUS
+&kp TAB         &kp Q       &kp W           &kp E             &kp R               &kp T             &kp Y        &kp U               &kp I             &kp O    &kp P               &none
+&kp LEFT_SHIFT  &mt LGUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G             &kp H        &mt LEFT_CONTROL J  &mt LEFT_SHIFT K  &kp L    &mt LGUI SEMICOLON  &kp RGUI
+&kp LCTRL       &kp Z       &kp X           &kp C             &kp V               &kp B             &kp N        &kp M               &kp COMMA         &kp DOT  &kp QUESTION        &none
+                                            &lt 2 SPACE       &lt 1 ESC           &lt 4 LEFT_GUI    &lt 3 ENTER  &lt 1 BACKSPACE
+                                                              &kp RGUI            &mkp LCLK         &none
             >;
 
             trackball-bindings = <&tmv_coarse>;
