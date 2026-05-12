@@ -31,19 +31,19 @@
             key-positions = <31 32 33>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <20 19>;
-        };
-
         entr {
-            bindings = <&kp ENTER>;
+            bindings = <&tmux_prev_window>;
             key-positions = <31 32>;
         };
 
         shortcat {
             bindings = <&kp LA(LG(LS(S)))>;
             key-positions = <30 31>;
+        };
+
+        tmuxnext {
+            bindings = <&tmux_next_prev>;
+            key-positions = <32 33>;
         };
     };
 
