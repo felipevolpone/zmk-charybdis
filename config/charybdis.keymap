@@ -117,9 +117,9 @@
         nav {
             bindings = <
 &trans  &trans  &trans                &trans                 &trans              &trans                 &trans        &trans                &trans         &trans         &trans  &trans
-&trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    &kp N0        &kp LA(LEFT)          &kp LA(RIGHT)  &kp LS(LG(J))  &none   &trans
-&trans  &trans  &kp C_VOLUME_DOWN     &kp C_MUTE             &kp C_VOLUME_UP     &kp LG(LEFT)           &caps_word    &kp LA(LEFT)          &kp LA(RIGHT)  &none          &none   &trans
-&trans  &trans  &trans                &kp C_PLAY_PAUSE       &none               &kp LG(RIGHT)          &kp CAPSLOCK  &kp LG(LS(NUMBER_4))  &none          &none          &trans  &trans
+&trans  &trans  &kp C_VOLUME_DOWN     &kp K_MUTE             &kp C_VOLUME_UP     &trans                 &kp N0        &kp LA(LEFT)          &kp LA(RIGHT)  &kp LS(LG(J))  &none   &trans
+&trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    &caps_word    &kp LA(LEFT)          &kp LA(RIGHT)  &none          &none   &trans
+&trans  &trans  &trans                &kp C_PLAY_PAUSE       &kp LG(LEFT)        &kp LG(RIGHT)          &kp CAPSLOCK  &kp LG(LS(NUMBER_4))  &none          &none          &trans  &trans
                                       &kp LS(ENTER)          &trans              &trans                 &trans        &trans
                                                              &trans              &trans                 &trans
             >;
